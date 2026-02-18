@@ -8,7 +8,7 @@ header {
     color:#F9FAF8;
 }
 
-.hero-text {
+h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
@@ -17,4 +17,30 @@ header {
 nav {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 150px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px; /* Espacio entre los links */
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 150px;
+    gap: 50px;
 }
