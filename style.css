@@ -1,6 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
 header {
     font-family: Roboto;
     background-color: #1F2937;
+    margin: 0;
+    padding: 48px;
 }
 
 .logo {
@@ -8,14 +14,14 @@ header {
     color:#F9FAF8;
 }
 
-h1 {
+.hero-text h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
 }
 
 nav {
-    font-size: 18px;
+    font-size: 14px;
     color: #E5E7EB;
 }
 
@@ -39,8 +45,127 @@ nav {
 
 .hero-content {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: stretch;
     padding: 50px 150px;
-    gap: 50px;
+    gap: 20px;
+}
+
+.hero-text {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.hero-text button {
+    border-radius: 5px;
+    border: 2px solid #3882F6;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    font-size: 20px;
+}
+
+.logo-img {
+    background-color: grey;
+    font-size: 14px;
+    color:#E5E7EB;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.hero-text p {
+    font-size: 14px;
+    color:#F9FAF8;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.boxes div {
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 35px;
+    margin-bottom: 100px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    max-width: 650px;
+}
+
+div b {
+    display:flex;
+    justify-content: flex-end;
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.sing-up {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.message {
+    border-radius: 5px;
+    border: 2px solid #3882F6;
+    color:#F9FAF8;
+    background-color: #3882F6;
+    padding: 50px;
+}
+
+.message p {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+button {
+    border-radius: 5px;
+    border: 1px solid #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    font-size: 15px;
+}
+
+.copyright div {
+    margin: 20px;
 }
